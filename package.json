@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "postinstall": "typings install"
   },
   "license": "ISC",
   "dependencies": {
